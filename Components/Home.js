@@ -99,6 +99,15 @@ export default function Home() {
           margin: responsiveScreenHeight(2),
           alignItems: "center",
         }}
+        onPress={() => navigation.navigate('checkBox')}
+      >check Box </Button>
+      <Button
+        style={{
+          width: "90%",
+          backgroundColor: 'black',
+          margin: responsiveScreenHeight(2),
+          alignItems: "center",
+        }}
         onPress={() => openMapVisitStore()}
       >Open Phone map </Button>
       {/* <Button
