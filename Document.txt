@@ -1,0 +1,1 @@
+React native paper npm use the text Input table 
